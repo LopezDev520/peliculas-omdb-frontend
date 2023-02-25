@@ -12,6 +12,8 @@
 html, body {
   background-color: #1b1b32;
 
+  font-family: var(--descriptionFont);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +42,7 @@ html, body {
   text-align: center;
   border-radius: 20px;
   display: none;
+  box-shadow: 10px 5px 32px black;
 }
 
 #search-form {
@@ -48,6 +51,7 @@ html, body {
   background-color: #631ac3;
   padding: 15px;
   border-radius: 15px;
+  box-shadow: 10px 10px 15px black;
 }
 
 #search-form input {
@@ -71,6 +75,7 @@ html, body {
 }
 
 #result {
+  box-shadow: 5px 10px 10px black;
   background: #f3a90f;
   max-width: 650px;
   padding: 15px;
@@ -80,6 +85,7 @@ html, body {
 }
 
 img {
+  box-shadow: 10px 15px 15px black;
   border-radius: 15px;
 }
 
@@ -101,7 +107,7 @@ img {
 }
 
 .movie-rating {
-  width: 50px;
+  width: 65px;
   height: 50px;
 
   display: flex;
